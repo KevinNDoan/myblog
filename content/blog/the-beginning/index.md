@@ -2,6 +2,7 @@
 title: The beginning
 date: "2021-05-05"
 description: A start I couldn't have dreamed of, but a start nevertheless. This is how I began my company.
+category: Business
 ---
 
 A reminder to myself of the long path ahead...
