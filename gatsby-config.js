@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Codex Kevin`,
     author: {
       name: `Kevin Doan`,
       summary: `, CEO of Talkframer LLC.`,
