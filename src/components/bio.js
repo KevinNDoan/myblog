@@ -40,9 +40,13 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-        </p>
+        <div>
+          Written by <strong>{author.name}</strong>
+          <br/>
+          CEO of Talkframer LLC
+          Avid reader
+          Photographer
+        </div>
       )}
     </div>
   )

@@ -3,7 +3,7 @@ module.exports = {
     title: `Codex Kevin`,
     author: {
       name: `Kevin Doan`,
-      summary: `, CEO of Talkframer LLC.`,
+      summary: `CEO of Talkframer LLC`,
     },
     description: `Kevin Doan's official blog.`,
     siteUrl: `https://kevinndoan.com/`,
