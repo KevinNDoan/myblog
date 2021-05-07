@@ -43,9 +43,7 @@ const Bio = () => {
         <div>
           Written by <strong>{author.name}</strong>
           <br/>
-          CEO of Talkframer LLC
-          Avid reader
-          Photographer
+          CEO of Talkframer LLC, Avid reader, Photographer
         </div>
       )}
     </div>
