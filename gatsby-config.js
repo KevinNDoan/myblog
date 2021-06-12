@@ -5,7 +5,7 @@ module.exports = {
       name: `Kevin Doan`,
       summary: `CEO of Talkframer LLC`,
     },
-    description: `Kevin Doan's official blog.`,
+    description: `Kevin N Doan's official blog.`,
     siteUrl: `https://kevinndoan.com/`,
     social: {
       twitter: ``,
@@ -112,8 +112,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Kevin N. Doan's Official Blog`,
+        short_name: `Codex Kevin`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
