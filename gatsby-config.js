@@ -5,7 +5,7 @@ module.exports = {
       name: `Kevin Doan`,
       summary: `CEO of Talkframer LLC`,
     },
-    description: `Kevin N Doan's official blog.`,
+    description: `Kevin Doan's official blog.`,
     siteUrl: `https://kevinndoan.com/`,
     social: {
       twitter: ``,

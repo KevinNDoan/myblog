@@ -28,24 +28,33 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
-      {author?.name && (
-        <div>
-          Written by <strong>{author.name}</strong>
-          <br/>
-          CEO of Talkframer LLC, Avid reader, Photographer
-        </div>
-      )}
+    <div>
+      <div className="row border-top border-bottom text-center">
+        <div className="p-2 col"><a className="text-decoration-none text-dark" href="/">Home</a></div>
+        <div className="p-2 col"><a className="text-decoration-none text-dark" href="/projects">Projects</a></div>
+        <div className="p-2 col"><a className="text-decoration-none text-dark" href="/photography">Photos</a></div>
+        <div className="p-2 col"><a className="text-decoration-none text-dark" href="/contact">Contact</a></div>
+      </div>
+      <br/>
+      <div className="bio">
+        <StaticImage
+          className="bio-avatar"
+          layout="fixed"
+          formats={["AUTO", "WEBP", "AVIF"]}
+          src="../images/profile-pic.png"
+          width={50}
+          height={50}
+          quality={95}
+          alt="Profile picture"
+        />
+        {author?.name && (
+          <div>
+            Written by <strong>{author.name}</strong>
+            <br/>
+            CEO of Talkframer LLC, Avid reader, Photographer
+          </div>
+        )}
+      </div>
     </div>
   )
 }
