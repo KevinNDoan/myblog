@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Codex Kevin`,
+    title: `Choose to be Extraordinary`,
     author: {
       name: `Kevin Doan`,
       summary: `CEO of Talkframer LLC`,
@@ -8,7 +8,7 @@ module.exports = {
     description: `Kevin Doan's official blog.`,
     siteUrl: `https://kevinndoan.com/`,
     social: {
-      twitter: ``,
+      twitter: `asdfa`,
     },
   },
   plugins: [
@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content`,
+        name: `content`,
       },
     },
     {
@@ -66,6 +66,7 @@ module.exports = {
               siteMetadata {
                 title
                 description
+                thumbnail
                 siteUrl
                 site_url: siteUrl
               }
@@ -99,6 +100,8 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      description
+                      thumbnail
                     }
                   }
                 }
@@ -112,8 +115,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Kevin N. Doan's Official Blog`,
-        short_name: `Codex Kevin`,
+        name: `Choose to be Extraordinary`,
+        short_name: `Choose to be Extraordinary`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

@@ -49,9 +49,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         path: post.fields.slug,
         component: blogPost,
         context: {
-          id: post.id,
-          previousPostId,
-          nextPostId,
+          id: post.id
         },
       })
     })
@@ -85,16 +83,11 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SiteSiteMetadata {
       author: Author
       siteUrl: String
-      social: Social
     }
 
     type Author {
       name: String
       summary: String
-    }
-
-    type Social {
-      twitter: String
     }
 
     type MarkdownRemark implements Node {

@@ -1,75 +1,92 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import { Card } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from "react-bootstrap";
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <Seo title="Home" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
+  var counter = 0
 
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="Home" />
-      <Bio />
-      <div>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+      <Container fluid>
+            {posts.map(post => {
+              const title = post.frontmatter.title || post.fields.slug
+              counter += 1
 
-          return (
-            <div>
-              <Card style={{ width: '100%' }}>
-                <Card.Body>
-                  <div key={post.fields.slug}>
-                    <article
-                      className="post-list-item"
-                      itemScope
-                      itemType="http://schema.org/Article"
-                    >
-                      <header>
-                        <h2>
-                          <Link to={post.fields.slug} itemProp="url">
-                            <span itemProp="headline">{title}</span>
-                          </Link>
-                        </h2>
-                        <p>{post.frontmatter.category}</p>
-                        <small>{post.frontmatter.date}</small>
-                      </header>
-                      <section>
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html: post.frontmatter.description || post.excerpt,
-                          }}
-                          itemProp="description"
-                        />
-                      </section>
-                    </article>
-                  </div>
-                </Card.Body>
-              </Card>
-              <br/>
-            </div>
-          )
-        })}
-      </div>
+              if(counter === 1) {
+                var t = "../../content/blog/the-beginning/190506-hubble-2-ac-744p-2848166.jpeg"
+                var x = "../../content/blog/" + post.frontmatter.thumbnail
+                return (
+                    <div className="recent" key={post.fields.slug}>
+                      <article className="post-list-item" itemScope itemType="http://schema.org/Article">
+                        <header>
+                          <p className="context"><span style={{fontWeight: "600"}}>{post.frontmatter.category}</span> | {post.frontmatter.date}</p>
+                          <h1 className="recent-headline text-dark">
+                            <Link to={post.fields.slug} itemProp="url">
+                              <span itemProp="headline">{title}</span>
+                            </Link>
+                          </h1>
+                        </header>
+                        <section>
+                          <p
+                            className="description"
+                            dangerouslySetInnerHTML={{
+                              __html: post.frontmatter.description || post.excerpt,
+                            }}
+                            itemProp="description"
+                          />
+                          <br />
+                          <StaticImage
+                            className="thumbnail"
+                            formats={["AUTO", "WEBP", "AVIF", "PNG", "JPEG", "JPG"]}
+                            src={x}
+                            alt="Thumbnail"
+                          />
+                        </section>
+                      </article>
+                    </div>
+                )
+              } else if(counter === 2 || counter === 3 || counter === 4 || counter === 5) {
+                  return(
+                    <div className="border-top" key={post.fields.slug}>
+                      <article className="post-list-item" itemScope itemType="http://schema.org/Article">
+                        <Row>
+                          <Col>
+                            <header>
+                              <p className="context"><span style={{fontWeight: "600"}}>{post.frontmatter.category}</span> | {post.frontmatter.date}</p>
+                              <h2 className="text-dark">
+                                <Link to={post.fields.slug} itemProp="url">
+                                  <span itemProp="headline">{title}</span>
+                                </Link>
+                              </h2>
+                            </header>
+                            <section>
+                              <p
+                                className="description"
+                                dangerouslySetInnerHTML={{
+                                  __html: post.frontmatter.description || post.excerpt,
+                                }}
+                                itemProp="description"
+                              />
+                            </section>
+                          </Col>
+                          <Col>
+                            <img className="thumbnail-sm" src={post.frontmatter.thumbnail} alt="Thumbnail" />
+                          </Col>
+                        </Row>
+                      </article>
+                    </div>
+                  )
+              }
+            })}
+      </Container>
     </Layout>
   )
 }
@@ -94,6 +111,7 @@ export const pageQuery = graphql`
           title
           description
           category
+          thumbnail
         }
       }
     }
