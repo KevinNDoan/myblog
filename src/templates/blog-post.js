@@ -29,7 +29,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <hr />
         <br />
         <section
-          className="articleBody"
+          className="articleBody article-body-font"
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />

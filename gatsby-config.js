@@ -3,13 +3,10 @@ module.exports = {
     title: `Choose to be Extraordinary`,
     author: {
       name: `Kevin Doan`,
-      summary: `CEO of Talkframer LLC`,
+      summary: `Lover of coffee, computers, and country.`,
     },
     description: `Kevin Doan's official blog.`,
     siteUrl: `https://kevinndoan.com/`,
-    social: {
-      twitter: `asdfa`,
-    },
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -22,7 +22,7 @@ const BlogIndex = ({ data, location }) => {
 
               if(counter === 1) {
                 var t = "../../content/blog/the-beginning/190506-hubble-2-ac-744p-2848166.jpeg"
-                var x = "../../content/blog/" + post.frontmatter.thumbnail
+                var x = "../../content/blog" + post.frontmatter.thumbnail
                 return (
                     <div className="recent" key={post.fields.slug}>
                       <article className="post-list-item" itemScope itemType="http://schema.org/Article">

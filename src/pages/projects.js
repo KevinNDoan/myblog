@@ -26,6 +26,23 @@ const ProjectsIndex = ({ data }) => {
                   <header>
                     <h2>
                       <Link href="https://www.talkframer.com" itemProp="url">
+                        <span itemProp="headline">FVHS Network</span>
+                      </Link>
+                    </h2>
+                    <p>A website hosting service for high school clubs and organizations.</p>
+                    <small></small>
+                  </header>
+                </article>
+              </div>
+              <div>
+                <article
+                  className="post-list-item"
+                  itemScope
+                  itemType="http://schema.org/Article"
+                >
+                  <header>
+                    <h2>
+                      <Link href="https://www.talkframer.com" itemProp="url">
                         <span itemProp="headline">Talkframer</span>
                       </Link>
                     </h2>
