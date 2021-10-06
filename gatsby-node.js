@@ -83,6 +83,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SiteSiteMetadata {
       author: Author
       siteUrl: String
+      thumbnail: String
     }
 
     type Author {
@@ -99,6 +100,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      thumbnail: String
     }
 
     type Fields {
