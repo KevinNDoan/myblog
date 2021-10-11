@@ -35,12 +35,6 @@
   --fontFamily-serif: "Georgia", Cambria, "Times New Roman", Times, serif;
   --font-body: "Georgia";
   --font-heading: var(--fontFamily-sans);
-  --fontWeight-normal: 400;
-  --fontWeight-medium: 500;
-  --fontWeight-semibold: 600;
-  --fontWeight-bold: 700;
-  --fontWeight-extrabold: 800;
-  --fontWeight-black: 900;
   --fontSize-root: 16px;
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
@@ -113,7 +107,7 @@ main > body {
 
 .articleBody {
   font-size: 1.35rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
   margin-bottom: 0.78125rem;
 }
 
@@ -333,6 +327,7 @@ a:focus {
 }
 
 .post-heading {
+  font-family: "Georgia", Times, serif;
   font-size: 2rem;
   margin: 0;
 }

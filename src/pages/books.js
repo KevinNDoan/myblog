@@ -15,10 +15,11 @@ const BooksIndex = ({ data, location }) => {
       <h1>Current Reading List</h1>
       <hr />
       <ul>
-        <li>1984</li>
         <li>Why We Sleep</li>
+        <li>A Promised Land</li>
         <li>Leonardo da Vinci</li>
-        <li>The Power of Habit</li>
+        <li>Homegoing</li>
+        <li>48 Laws of Power</li>
       </ul>
       <br />
       <h1>Book related articles</h1>

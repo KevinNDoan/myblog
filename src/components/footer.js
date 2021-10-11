@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <div className="row border-top">
         <div className="p-2 col-2 pt-4">
           <StaticImage
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 

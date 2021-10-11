@@ -3,7 +3,7 @@ title: "Lessons from 'Steve Jobs'"
 date: "2021-07-19"
 description: "Walter Isaacson's biography of Steve Jobs is an endless pit of wisdom."
 category: Books
-thumbnail: "/static/3232990ea7b62f923046bd90ab07128b/08688/steve_jobs.jpg"
+thumbnail: "/static/8a2ae273f330a8f116f3962f70a6e7a0/0ede0/steve_jobs.jpg"
 ---
 
 ![Steve Jobs](./steve_jobs.jpg)
@@ -40,6 +40,6 @@ I have to attribute almost all of my successes in the past 2 years to this idea.
 
 In his Stanford Commencement Address, Jobs loosed this line, “Don’t be trapped by dogma—which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become.” In a world that is so often filled with societal expectations, it’s incentivized that we forgo our deepest callings, but that mindset doesn’t result in paradigm shifts.
 
-This audacity: “‘Guys, you’ve killed yourselves over this design for the last nine months, but we’re going to change it,’ Jobs told Ive’s team.” is what drives change in the world. That comfort with drastically shifting course—doing away with the physical keyboard, the tiny screen, the “smart” OS—is an honest expression of the human spirit to express itself. Through doing this, we also attain the added bonus of insensing our teams with a trailblazing ardor. It’s with this rationale that we may gird ourselves for the corrupting forces of the world and produce something of substance, not of dogma.
+This audacity: “‘Guys, you’ve killed yourselves over this design for the last nine months, but we’re going to change it,’ Jobs told Ive’s team.” is what drives change in the world. That comfort with drastically shifting course—doing away with the physical keyboard, the tiny screen, the “smart” OS—is an honest expression of the human spirit. Through doing this, we also attain the added bonus of insensing our teams with a trailblazing ardor. It’s with this rationale that we may gird ourselves for the corrupting forces of the world and produce something of substance, not of dogma.
 
-It’s an insurmountable task to boil down inspiring lessons from Steve Jobs into a single article, so that’s why, even though you, the reader, have read this post, I still compel you to pick this marvel up and give it a read. If you aren’t deeply stirred by its telling—and many times deeply relatable—anecdotes, there’s something wrong with you.
+It’s an insurmountable task to boil down inspiring lessons from Steve Jobs into a single article, so that’s why, even though you, the reader, have read this post, I still compel you to pick this godsend up and give it a read. If you aren’t deeply stirred by its telling—and many times deeply relatable—anecdotes, there’s something wrong with you.

@@ -1,10 +1,3 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import * as React from "react"
 import { Link } from "gatsby"
 import Moment from 'react-moment';
@@ -18,9 +11,9 @@ const Header = () => {
                 </h1>
                 <div className="d-flex flex-row align-items-baseline">
                     <small className="col"><Moment format="dddd, MMMM DD, YYYY" interval={30000}></Moment></small>
-                    <small className="col text-center">Kevin Doan's Blog</small>
+                    <small className="col text-center">Kevin N. Doan's Blog</small>
                     <small className="col text-end">
-                        <Link className="text-dark text-decoration-none" to="https://www.talkframer.com/user/Kevin">Talkframer Profile</Link>
+                        
                     </small>
                 </div>
             </div>
@@ -42,9 +35,6 @@ const Header = () => {
                 </Link>
                 <Link className="p-1 col text-decoration-none text-dark" to="/photography" itemProp="url">
                     <small>Photography</small>
-                </Link>
-                <Link className="p-1 col text-decoration-none text-dark" to="/whitepapers" itemProp="url">
-                    <small>Whitepapers</small>
                 </Link>
                 <Link className="p-1 col text-decoration-none text-dark" to="/contact" itemProp="url">
                     <small>Contact</small>

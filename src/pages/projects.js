@@ -25,7 +25,7 @@ const ProjectsIndex = ({ data }) => {
                 >
                   <header>
                     <h2>
-                      <Link href="https://www.talkframer.com" itemProp="url">
+                      <Link href="https://fvhs.net" itemProp="url">
                         <span itemProp="headline">FVHS Network</span>
                       </Link>
                     </h2>
