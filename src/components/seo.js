@@ -48,6 +48,15 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `Kevin Doan`,
         },
         {
+          property: `keywords`,
+          content: [
+            "gatsby",
+            "Choose to be Extraordinary",
+            "Kevin Doan",
+            "Kevin N Doan"
+          ]
+        },
+        {
           property: `og:description`,
           content: metaDescription,
         },
@@ -63,7 +72,7 @@ const Seo = ({ description, lang, meta, title }) => {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `Kevin N. Doan's blog.`,
 }
 
 Seo.propTypes = {

@@ -5,7 +5,7 @@ module.exports = {
       name: `Kevin Doan`,
       summary: `Lover of coffee, computers, and country.`,
     },
-    description: `Kevin Doan's official blog.`,
+    description: `Kevin N. Doan's blog.`,
     siteUrl: `https://kevinndoan.com/`,
   },
   plugins: [

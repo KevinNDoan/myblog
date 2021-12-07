@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Choose to be Extraordinary",
   "private": true,
   "description": "The Official Blog of Kevin Doan",
   "version": "0.1.0",
@@ -42,9 +42,12 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://www.kevinndoan.com",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "Choose to be Extraordinary",
+    "Kevin Doan",
+    "Kevin N Doan"
   ],
   "license": "0BSD",
   "main": "n/a",

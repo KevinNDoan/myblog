@@ -10,7 +10,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  var counter = 0
+  let counter = 0
 
   return (
     <Layout location={location} title={siteTitle}>

@@ -3,10 +3,12 @@ title: "The books I've read"
 date: "2021-10-07"
 description: "Here's an ongoing list of books I've read since starting this blog."
 category: "Books"
-thumbnail: "/static/fbaa18db20c46f135cb407d02bd73f37/d9c39/the_state_of_cs_2.jpg"
+thumbnail: "/static/23240fbee4e7a1c9c4f8b687096c4c32/e1596/40899398782_50ec22ef71_k.jpg"
 ---
 
-<p>I try to read every chance I get and whenever my will permits, but I'm trying to change that. To keep myself accountable to an external locus of control, I will publish my library of read books. Note: These books are listed in no particular order.</p>
+![Computer Science Club President](./40899398782_50ec22ef71_k.jpg)
+
+<p>I try to read every chance I get and whenever my will permits, but I'm trying to up the ante. To keep myself accountable to an external locus of control, I will publish my library of read books. Note: These books are listed in no particular order.</p>
 
 <br>
 
