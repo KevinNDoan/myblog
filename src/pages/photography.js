@@ -42,35 +42,35 @@ const PhotographyIndex = ({ data }) => {
       thumbnail: ChristianWethington0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "My friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
     },
     {
       src: ChristianWethington1,
       thumbnail: ChristianWethington1,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "At Bella Terra with Christian and found this fantastic 'OPEN' sign."
     },
     {
       src: Arik1,
       thumbnail: Arik1,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "Nothing beats late night walks—especially with friends, especially with my camera."
     },
     {
       src: Arik0,
       thumbnail: Arik0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "My friend, Arik Lieu, perched atop this tree trunk in city hall. I took this picture for his clothing brand, 'AURA BRAND CO.'"
     },
     {
       src: Aura0,
       thumbnail: Aura0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "My friends, Arik Lieu and Anthony Vu, repping 'AURA BRAND CO.' merchandise as part of an unreleased media campaign."
     },
     {
       src: EnvironmentalImpactofCrypto,
@@ -98,98 +98,98 @@ const PhotographyIndex = ({ data }) => {
       thumbnail: FerrisWheel,
       thumbnailWidth: 300,
       thumbnailHeight: 200,
-      caption: "Homecoming 2021 ferris wheel."
+      caption: "The ferris wheel stood as the single locus of solitude and tranquility. Atop it, partygoers departed the crazed mosh pit to share intimate moments. Snapped at Homecoming 2021."
     },
     {
       src: George,
       thumbnail: George,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "Homecoming 2021 mosh pit."
+      caption: "Homecoming 2021 mosh pit. Snapped at Homecoming 2021."
     },
     {
       src: BlueGuy,
       thumbnail: BlueGuy,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "Amidst the torrent, a saturnine soul."
+      caption: "Amidst the torrent, a saturnine soul. Snapped at Homecoming 2021."
     },
     {
       src: Homecoming0,
       thumbnail: Homecoming0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "Amidst the torrent, a saturnine soul."
+      caption: "Partygoers walk through a fenced off corridor onto the dance floor. Snapped at Homecoming 2021."
     },
     {
       src: JacobSpizzirri,
       thumbnail: JacobSpizzirri,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "Had the great pleasure of seeing artist Jacob Spizzirri in action as part of my reporting for that year's issue of RED magazine."
     },
     {
       src: StateofCS1,
       thumbnail: StateofCS1,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "Got to sit in on a Computer Science Club meeting. In the center is the president. To her right is Mr. Pham, the Computer Science Club advisor and my junior year computer science teacher, a jubilant figure that would entertain my burgeoning curiosity. I've yet to meet someone as passionate about computer science as he."
     },
     {
       src: StateofCS0,
       thumbnail: StateofCS0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "Computer science affects real change. I saw that up and close as Computer Science Club members watched a video for their upcoming robotics competition, their countenance clearly exposing their buzzing brains."
     },
     {
       src: SteveJobs0,
       thumbnail: SteveJobs0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "Gosh I loved this book. On the first day of school, I said that reading this book was the 'highlight of my summer,' and looking back, I still concur."
     },
     {
       src: Jacoby2,
       thumbnail: Jacoby2,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "As part of my reporting for RED magazine, I got to interview and photograph my friend, Jacoby Truong."
     },
     {
       src: Jacoby1,
       thumbnail: Jacoby1,
       thumbnailWidth: 212,
       thumbnailHeight: 154,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "Off the court, Jacoby Truong is a steadfast friend and great listener. I'm glad we met freshman year because he's been a constant shoulder to lean on throughout."
     },
     {
       src: Jacoby0,
       thumbnail: Jacoby0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "My friend, Jacoby Truong, loves to get some time in on the court—and he doesn't go easy."
     },
     {
       src: Graduation2020Lloyd,
       thumbnail: Graduation2020Lloyd,
       thumbnailWidth: 400,
       thumbnailHeight: 225,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "Mr. Lloyd, my freshman year English teacher, brought light and life to the 2020 drive-thru graduation ceremony. One of my most gratifying moments as a student journalist was witnessing students' faces light up as they rode by him."
     },
     {
       src: Internship0,
       thumbnail: Internship0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "As seen in a Baron News article on internships."
     },
     {
       src: Career0,
       thumbnail: Career0,
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      caption: "My best friend, Christian Wethington. Took this picture with intentionally incorrect settings to show him the wonders of modern photo editing software."
+      caption: "As seen in a Baron News article on careers. I'll be the first to admit: this is not a great photo. COVID-19 challenged me creatively and boy did I struggle. Looking back, I'm able to cherish the simple luxury of being able to just go outside."
     },
   ]
 
